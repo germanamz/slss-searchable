@@ -1,5 +1,5 @@
 locals {
-  lambdaName = "back-filler"
+  lambdaName = "backfiller"
   lambdaMemory = 1024
 }
 
@@ -9,7 +9,11 @@ variable "dataTable" {
 
 variable "prefix" {
   type = string
-  default = "slss-s"
+  default = "slsss"
+}
+
+variable "suffix" {
+  type = string
 }
 
 variable "artifactsBucket" {

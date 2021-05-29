@@ -24,7 +24,11 @@ variable "tag" {
 
 variable "prefix" {
   type = string
-  default = "slss-s"
+  default = "slsss"
+}
+
+variable "suffix" {
+  type = string
 }
 
 variable "dataTable" {
@@ -78,6 +82,7 @@ module "indexr" {
   dataIdKey = var.dataIdKey
   dataBucket = aws_s3_bucket.data.id
   dataBucketArn = aws_s3_bucket.data.arn
+  suffix = var.suffix
 
   depends_on = [
     aws_sqs_queue.back-fill,
@@ -98,23 +103,13 @@ module "backFiller" {
   dataKeyId = var.dataIdKey
   dataBucket = aws_s3_bucket.data.id
   dataBucketArn = aws_s3_bucket.data.arn
+  suffix = var.suffix
 
   depends_on = [
     module.indexr,
     aws_s3_bucket.data,
     aws_sqs_queue.back-fill
   ]
-}
-
-module "scanner" {
-  source = "../lambdas/scanner/terraform"
-
-  dataTable = var.dataTable
-  idxTable = aws_dynamodb_table.idx-table.id
-  artifactsBucket = var.artifactsBucket
-  artifactKey = "${var.prefix}/scanner-${var.tag}.zip"
-  totalSegments = var.totalSegments
-  prefix = var.prefix
 }
 
 module "searcher" {
@@ -124,15 +119,14 @@ module "searcher" {
   artifactsBucket = var.artifactsBucket
   artifactKey = "${var.prefix}/searcher-${var.tag}.zip"
   totalSegments = var.totalSegments
-  scannerArn = module.scanner.scannerArn
   prefix = var.prefix
   dataBucket = aws_s3_bucket.data.id
   dataBucketArn = aws_s3_bucket.data.arn
   idxTable = aws_dynamodb_table.idx-table.id
   idxTableArn = aws_dynamodb_table.idx-table.arn
+  suffix = var.suffix
 
   depends_on = [
-    module.scanner,
     aws_s3_bucket.data
   ]
 }

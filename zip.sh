@@ -1,7 +1,7 @@
 #!/bin/bash
 BUCKET=$1
 TAG=$2
-PREFIX=slss-s/
+PREFIX=slsss/
 
 lerna bootstrap
 

@@ -17,7 +17,7 @@ const getTokenMatches = async (token, limit, nextToken) => {
     TableName: getIdxTable(),
     IndexName: CONSTANTS.TOKEN_INDEX,
     ExclusiveStartKey: nextToken,
-    Limit: limit,
+    Limit: limit || 100,
     ...(getFilterKeys({}, { token })),
   }));
 
@@ -29,9 +29,10 @@ const getTokenMatches = async (token, limit, nextToken) => {
 
 module.exports.handler = async (event) => {
   const { arguments: eventArgs } = event;
-  const { query, keywords = [], limit, nextToken } = eventArgs;
+  const { query, keywords = [], limit: argLimit, nextToken } = eventArgs;
+  const limit = argLimit ? argLimit : 100;
   const tokens = query && tokenize(query, false, true);
-  const keywordTokens = keywords.map(trimValue);
+  const keywordTokens = keywords ? keywords.map(trimValue) : [];
   const queryTokens = [...keywordTokens, ...tokens];
   const searchHash = crypto.createHash('md5').update(queryTokens.join()).digest('hex');
   const deduplicationCache = {};

@@ -1,5 +1,5 @@
 resource "aws_iam_role" "lambda" {
-  name = "${var.prefix}-${local.lambdaName}-lambda-${var.dataTable}"
+  name = "${var.prefix}${local.lambdaName}-l-${var.suffix}"
 
   assume_role_policy = <<EOF
 {
@@ -19,7 +19,7 @@ EOF
 }
 
 resource "aws_iam_role_policy" "lambda-role-policy" {
-  name = "${var.prefix}-${local.lambdaName}-lambda-${var.dataTable}"
+  name = "${var.prefix}${local.lambdaName}-l-${var.suffix}"
   role = aws_iam_role.lambda.id
 
   policy = <<-EOF
@@ -79,7 +79,7 @@ resource "aws_lambda_function" "lambda" {
   s3_bucket = data.aws_s3_bucket.bucket.id
   s3_key = data.aws_s3_bucket_object.artifact.key
   source_code_hash = data.aws_s3_bucket_object.checksum.body
-  function_name = "${var.prefix}-${local.lambdaName}-lambda-${var.dataTable}"
+  function_name = "${var.prefix}${local.lambdaName}-l-${var.suffix}"
   handler = "index.handler"
   role = aws_iam_role.lambda.arn
   runtime = "nodejs14.x"

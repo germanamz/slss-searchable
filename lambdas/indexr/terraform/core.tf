@@ -18,7 +18,11 @@ variable "idxTable" {
 
 variable "prefix" {
   type = string
-  default = "slss-s"
+  default = "slsss"
+}
+
+variable "suffix" {
+  type = string
 }
 
 variable "fields" {

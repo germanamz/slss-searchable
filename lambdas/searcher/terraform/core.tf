@@ -22,7 +22,7 @@ variable "totalSegments" {
 
 variable "prefix" {
   type = string
-  default = "slss-s"
+  default = "slsss"
 }
 
 variable "artifactsBucket" {
@@ -33,7 +33,7 @@ variable "artifactKey" {
   type = string
 }
 
-variable "scannerArn" {
+variable "suffix" {
   type = string
 }
 

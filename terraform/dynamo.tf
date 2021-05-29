@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "idx-table" {
-  name = "${var.prefix}-idx-${var.dataTable}"
+  name = "${var.prefix}-idx-${var.suffix}"
   hash_key = local.tokenIdKey
   billing_mode = "PAY_PER_REQUEST"
 
