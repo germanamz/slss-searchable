@@ -5,7 +5,6 @@ const getDataTable = require('./getDataTable');
 const getS3Client = require('./getS3Client');
 
 module.exports = async (id) => {
-  console.log('getting instance from s3', id);
   const objectData = [];
   const { Body: stream } = await getS3Client().send(new GetObjectCommand({
     Bucket: getDataBucket(),
