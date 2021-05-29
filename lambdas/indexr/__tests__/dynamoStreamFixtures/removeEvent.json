@@ -1,0 +1,34 @@
+{
+  "Records": [
+    {
+      "eventID": "ed97f5370aa06340a74fa00e827d7606",
+      "eventName": "REMOVE",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-east-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1620848861,
+        "Keys": {
+          "id": {
+            "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+          }
+        },
+        "OldImage": {
+          "name": {
+            "S": "Thinner americano del bueno con otra descripcion"
+          },
+          "id": {
+            "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+          },
+          "sku": {
+            "S": "SOL012-3"
+          }
+        },
+        "SequenceNumber": "4764200000000011850093659",
+        "SizeBytes": 146,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-east-1:00000000000:table/table-name/stream/2021-05-11T19:27:09.459"
+    }
+  ]
+}

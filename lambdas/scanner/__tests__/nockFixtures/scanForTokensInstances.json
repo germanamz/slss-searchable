@@ -1,0 +1,132 @@
+[
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "ExpressionAttributeNames": {
+                "#token": "token"
+            },
+            "ExpressionAttributeValues": {
+                ":token0": {
+                    "S": "bro"
+                },
+                ":token1": {
+                    "S": "imp"
+                }
+            },
+            "FilterExpression": "#token IN (:token0,:token1)",
+            "IndexName": "token",
+            "Segment": 2,
+            "TableName": "slss-s-idx-table-name",
+            "TotalSegments": 5
+        },
+        "status": 200,
+        "response": {
+            "Count": 1,
+            "Items": [
+                {
+                    "id": {
+                        "S": "fa4e510a-aaf2-41c6-a178-e278dd58555c"
+                    },
+                    "instanceId": {
+                        "S": "6a6a303f-13f7-4470-ae3e-3f2e129d75a9"
+                    },
+                    "token": {
+                        "S": "bro"
+                    }
+                }
+            ],
+            "ScannedCount": 13
+        },
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 18:01:40 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "169",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "IRFPEE1A16M4JH3P074JGG7LLVVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2005888839"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "RequestItems": {
+                "table-name": {
+                    "Keys": [
+                        {
+                            "id": {
+                                "S": "6a6a303f-13f7-4470-ae3e-3f2e129d75a9"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "status": 200,
+        "response": {
+            "Responses": {
+                "table-name": [
+                    {
+                        "__typename": {
+                            "S": "Product"
+                        },
+                        "updatedOn": {
+                            "S": "2021-04-23T17:13:35.576Z"
+                        },
+                        "satUnitId": {
+                            "S": "H87"
+                        },
+                        "createdOn": {
+                            "S": "2021-04-23T17:13:35.576Z"
+                        },
+                        "status": {
+                            "S": "ACTIVE"
+                        },
+                        "id": {
+                            "S": "6a6a303f-13f7-4470-ae3e-3f2e129d75a9"
+                        },
+                        "name": {
+                            "S": "BROCA TRIUM AV 11211 11/64"
+                        },
+                        "satCategoryId": {
+                            "S": "27111500"
+                        },
+                        "sku": {
+                            "S": "TRIU11/64"
+                        }
+                    }
+                ]
+            },
+            "UnprocessedKeys": {}
+        },
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 18:01:40 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "397",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "1V367TS1H9J73R9NFG05R4F5SBVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2588138179"
+        ],
+        "responseIsBinary": false
+    }
+]

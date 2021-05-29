@@ -1,0 +1,11 @@
+{
+  "name": "lambda-slss-back-filler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.16.0",
+    "@aws-sdk/client-sqs": "^3.16.0",
+    "slss-util": "^1.0.0"
+  }
+}

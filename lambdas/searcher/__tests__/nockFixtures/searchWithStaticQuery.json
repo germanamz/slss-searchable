@@ -1,0 +1,184 @@
+[
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 4
+        },
+        "status": 200,
+        "response": {
+            "segment": 4,
+            "items": []
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:20:21 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "24",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "e4ca74fc-3654-443b-8fca-24c5f40600f6",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d295-2e155ef4556075591ec50daf;sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 1
+        },
+        "status": 200,
+        "response": {
+            "segment": 1,
+            "items": []
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:20:21 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "24",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "2a15f84f-da62-48ad-b8ea-86525efbc210",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d295-29469a556c6687807640ae7b;sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 3
+        },
+        "status": 200,
+        "response": {
+            "segment": 3,
+            "items": []
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:20:21 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "24",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "39dbf17d-cff7-4596-9b97-58d6b0835724",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d295-30d3371d68ed23981f0d4d6d;sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 0
+        },
+        "status": 200,
+        "response": {
+            "segment": 0,
+            "items": [
+                {
+                    "__typename": "Product",
+                    "updatedOn": "2021-04-23T17:13:35.576Z",
+                    "satUnitId": "H87",
+                    "createdOn": "2021-04-23T17:13:35.576Z",
+                    "status": "ACTIVE",
+                    "id": "6a6a303f-13f7-4470-ae3e-3f2e129d75a9",
+                    "name": "BROCA TRIUM AV 11211 11/64",
+                    "satCategoryId": "27111500",
+                    "sku": "TRIU11/64"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:20:21 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "287",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "718b28c9-b01b-4cc0-aae8-2f8a5369a0f9",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d295-343323b4236e698a7aaf9bd3;sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 2
+        },
+        "status": 200,
+        "response": {
+            "segment": 2,
+            "items": []
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:20:21 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "24",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "be02b79f-e925-43d0-b2a3-e1d26cf9b26c",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d295-59ab990f1f09b29971400d86;sampled=0"
+        ],
+        "responseIsBinary": false
+    }
+]

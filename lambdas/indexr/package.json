@@ -1,0 +1,11 @@
+{
+  "name": "lambda-slss-indexr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.15.0",
+    "@aws-sdk/client-s3": "^3.15.0",
+    "slss-util": "^1.0.0"
+  }
+}

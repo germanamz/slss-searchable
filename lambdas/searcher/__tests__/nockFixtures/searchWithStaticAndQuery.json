@@ -1,0 +1,211 @@
+[
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "tokens": [
+                "imper"
+            ],
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 2
+        },
+        "status": 200,
+        "response": {
+            "segment": 2,
+            "items": []
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:21:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "24",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "b6c60b4c-a081-427a-9cbb-cebe96796556",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d2e7-47d651f22e7895d43e3bb439;sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "tokens": [
+                "imper"
+            ],
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 4
+        },
+        "status": 200,
+        "response": {
+            "segment": 4,
+            "items": []
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:21:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "24",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "c0ec1ea3-fec2-4787-b52d-91148df8fe78",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d2e7-7fd6110424a92c2e41bc0fde;sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "tokens": [
+                "imper"
+            ],
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 3
+        },
+        "status": 200,
+        "response": {
+            "segment": 3,
+            "items": []
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:21:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "24",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "f2737cb5-f735-4805-813d-ee1f127ab69a",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d2e7-512d58213ec7a77a235f8bb2;sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "tokens": [
+                "imper"
+            ],
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 0
+        },
+        "status": 200,
+        "response": {
+            "segment": 0,
+            "items": [
+                {
+                    "__typename": "Product",
+                    "updatedOn": "2021-04-23T17:13:35.576Z",
+                    "satUnitId": "H87",
+                    "createdOn": "2021-04-23T17:13:35.576Z",
+                    "status": "ACTIVE",
+                    "id": "6a6a303f-13f7-4470-ae3e-3f2e129d75a9",
+                    "name": "BROCA TRIUM AV 11211 11/64",
+                    "satCategoryId": "27111500",
+                    "sku": "TRIU11/64"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:21:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "287",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "229c0860-cb40-4707-8bc2-53faa8add9d6",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d2e7-0ec2693c3cb1bed87b815ede;sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lambda.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/2015-03-31/functions/arn%3Aaws%3Alambda%3Aus-east-1%3A11111111111111%3Afunction%3Aslss-s-scanner-lambda-table-name/invocations",
+        "body": {
+            "tokens": [
+                "imper"
+            ],
+            "staticToken": "triu11/64",
+            "limit": 60,
+            "segment": 1
+        },
+        "status": 200,
+        "response": {
+            "segment": 1,
+            "items": [
+                {
+                    "__typename": "Product",
+                    "updatedOn": "2021-04-23T17:10:08.055Z",
+                    "satUnitId": "XBJ",
+                    "createdOn": "2021-04-23T17:10:08.055Z",
+                    "status": "ACTIVE",
+                    "id": "49fe9167-5253-479e-95c2-ae0129388b19",
+                    "name": "IMPERLACK 5 AÑOS ROJO CUB",
+                    "satCategoryId": "31201600",
+                    "sku": "SIG050.5"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 20 May 2021 21:21:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "286",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "9bc0e575-2110-482b-a791-24ebb6ea30c1",
+            "x-amzn-Remapped-Content-Length",
+            "0",
+            "X-Amz-Executed-Version",
+            "$LATEST",
+            "X-Amzn-Trace-Id",
+            "root=1-60a6d2e7-18f088ac39d0e0b741b9d9db;sampled=0"
+        ],
+        "responseIsBinary": false
+    }
+]

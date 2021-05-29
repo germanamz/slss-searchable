@@ -1,0 +1,47 @@
+{
+  "id": {
+    "S": "3da277fe-7bff-4cf5-89ba-bd2a25e79b07"
+  },
+  "NewValue": {
+    "M": {
+      "NewValue1": {
+        "M": {
+          "NewValue2": {
+            "N": "0"
+          },
+          "NewValue4": {
+            "L": [
+              {
+                "B": "MQ=="
+              },
+              {
+                "BOOL": true
+              },
+              {
+                "BOOL": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "NewValue3": {
+    "L": [
+      {
+        "L": [
+          {
+            "L": [
+              {
+                "NULL": true
+              }
+            ]
+          },
+          {
+            "S": "11"
+          }
+        ]
+      }
+    ]
+  }
+}

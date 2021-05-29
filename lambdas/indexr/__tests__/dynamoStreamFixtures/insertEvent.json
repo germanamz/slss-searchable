@@ -1,0 +1,34 @@
+{
+  "Records": [
+    {
+      "eventID": "e8cae79a9dda33a016a9493deef08099",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-east-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1620761507,
+        "Keys": {
+          "id": {
+            "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+          }
+        },
+        "NewImage": {
+          "name": {
+            "S": "Thinner americano del bueno"
+          },
+          "id": {
+            "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+          },
+          "sku": {
+            "S": "SOL012-3"
+          }
+        },
+        "SequenceNumber": "1700000000079515446707",
+        "SizeBytes": 125,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-east-1:00000000000:table/table-name/stream/2021-05-11T19:27:09.459"
+    }
+  ]
+}

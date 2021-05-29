@@ -1,0 +1,952 @@
+[
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "d82d6e10-13b1-492e-a6ca-ec825f1e2e45"
+                },
+                "token": {
+                    "S": "t"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "QLBN5FQO99JSMV1QHFK4F9PT03VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "a7be1073-bb8f-46f4-a0ac-bd2a0c40ee3d"
+                },
+                "token": {
+                    "S": "th"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "B77KDN0DPLLT98FP70K16GE7F7VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "7332b46a-cca6-4d09-b08e-6cf6a1715382"
+                },
+                "token": {
+                    "S": "thi"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "5V141QF13JK92RNQV27QSFCIEVVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "d1bfde05-70bd-487a-8d6a-db062e7eed59"
+                },
+                "token": {
+                    "S": "thin"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "PBQRCRH7H50355AF86PHQSCF57VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "53bbc93f-2ff9-41c1-816d-4d310f747f62"
+                },
+                "token": {
+                    "S": "thinn"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "GK75QIC7DLC578MVSMA9PPIVHFVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "ea7b5c39-7c5b-4f7b-acb6-a6d3d02aec10"
+                },
+                "token": {
+                    "S": "a"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "GICPID2PULK5TVJE8Q1EA1TGGFVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "08cef788-c914-4020-9aeb-3d5d75df372d"
+                },
+                "token": {
+                    "S": "am"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "1K5AHR6J5VU1SERSC7CE9B50JNVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "915dad43-d29c-479b-afb3-89d1302961ac"
+                },
+                "token": {
+                    "S": "ame"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "9VJ8TET0PFL3VJMQFE4493PGCBVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "0ffd1358-b0e5-41b7-abba-bf274e8a3850"
+                },
+                "token": {
+                    "S": "amer"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "5F7RMSVG5R0719FB3VPRS1C4DFVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "f95ddc73-523c-4e2b-a5f8-4157b4e56786"
+                },
+                "token": {
+                    "S": "ameri"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "3FP02D12F58TCQAOBTHMC821G3VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "89192f6b-f8f2-4f4d-b761-e66123416910"
+                },
+                "token": {
+                    "S": "americ"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "JL6S8BHJ40GAMRJ0GRMAAVV8ABVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "cb369873-3bc0-4aef-af39-a1dd0da858f5"
+                },
+                "token": {
+                    "S": "america"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "UONPHKE12SA1DPQ2Q6T3HQAPPNVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "af3a2ac4-c0c9-4839-bf03-a4b94d76f8a6"
+                },
+                "token": {
+                    "S": "american"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "3K0BAIUIUOKC477RG198SEQDS3VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "0475d96c-6a50-4f0d-ae08-6524dc8b6eea"
+                },
+                "token": {
+                    "S": "b"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:41 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "4ESEHODTD1CA88EQ0UNI66D55VVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "7490c7d7-3344-4235-bf6f-312d00bf45d0"
+                },
+                "token": {
+                    "S": "bu"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "734MI8T09U5HAE962OI680RJ93VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "d95de01a-ea86-4bb1-a86a-a7221d881678"
+                },
+                "token": {
+                    "S": "bue"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "BMJFKM8MD6UCOEEQV7KGL0NMLVVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "207a0c6a-ff0f-42ba-b3d2-ec8c1116cc29"
+                },
+                "token": {
+                    "S": "buen"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "2P1BHM11OL3GD6SRTSP7OA714RVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "b400b89c-d1bc-49a6-88d9-5c4e8032106c"
+                },
+                "token": {
+                    "S": "s"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "5L836LROPQTJF7C4QDQ2R64F47VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "d315af02-d1e3-4843-8f9d-eb28111e1a63"
+                },
+                "token": {
+                    "S": "so"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "HPT8CBUJOH5SFSEF4BOUQR0EM7VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "757fe1ac-a914-4727-bc10-ed5ef1d36e22"
+                },
+                "token": {
+                    "S": "sol"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "B1PM0N7HV0QEVIPBM9TQ47T6R3VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "773f63af-6a87-4549-80ec-6bcb7506863e"
+                },
+                "token": {
+                    "S": "sol0"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "KU0IPNQ1PV837ST94SOOUGLBNNVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "5c1196da-d3bd-4b30-9da3-6a2c51d1561b"
+                },
+                "token": {
+                    "S": "sol01"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "3H9NQG8UCVKE6NI0C52UR84UH3VV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "2ac26705-d4e8-4778-a53c-ae366ab27066"
+                },
+                "token": {
+                    "S": "sol012"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "6ES9BK57I9OHF5K653H3UGDN0FVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "62612990-18ad-4539-99ab-581a67f02a30"
+                },
+                "token": {
+                    "S": "sol012-"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "PFSSQ8QGI29N0O960MGPQF082BVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://dynamodb.us-east-1.amazonaws.com:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "Item": {
+                "id": {
+                    "S": "78e61d74-3001-4213-917a-a681cc400772"
+                },
+                "token": {
+                    "S": "sol012-3"
+                },
+                "instanceId": {
+                    "S": "466efd3c-6c26-459b-a8b0-8bf94263c203"
+                }
+            },
+            "TableName": "table-name"
+        },
+        "status": 200,
+        "response": {},
+        "rawHeaders": [
+            "Server",
+            "Server",
+            "Date",
+            "Thu, 20 May 2021 17:35:42 GMT",
+            "Content-Type",
+            "application/x-amz-json-1.0",
+            "Content-Length",
+            "2",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "4B2427J13U4RKDHJ03TSTOS6NNVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32",
+            "2745614147"
+        ],
+        "responseIsBinary": false
+    }
+]
