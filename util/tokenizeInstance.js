@@ -23,7 +23,9 @@ const tokenizeInstance = (dynamoData) => {
     if (nFieldValue !== oFieldValue) {
       // If the field is a keyword don't tokenize the value
       if (keywordFieldNames[fieldName]) {
-        nTokens[trimValue(nFieldValue)] = instanceId
+        if (nFieldValue && nFieldValue.length) {
+          nTokens[trimValue(nFieldValue)] = instanceId
+        }
       } else {
         tokenize(nFieldValue, (token) => {
           if (!nTokens[token]) {
