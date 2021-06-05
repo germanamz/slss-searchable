@@ -29,4 +29,23 @@ resource "aws_dynamodb_table" "idx-table" {
     hash_key = local.instanceIndexKey
     projection_type = "ALL"
   }
+
+  dynamic "attribute" {
+    for_each = var.sortFields == null ? [] : split(",", var.sortFields)
+    content {
+      name = "${local.sortIndexKey}-${attribute.value}"
+      type = "S"
+    }
+  }
+
+  dynamic "global_secondary_index" {
+    for_each = var.sortFields == null ? [] : split(",", var.sortFields)
+    iterator = idx
+    content {
+      name = "${local.sortIndex}-${idx.value}"
+      hash_key = local.tokenIndexKey
+      range_key = "${local.sortIndexKey}-${idx.value}"
+      projection_type = "ALL"
+    }
+  }
 }

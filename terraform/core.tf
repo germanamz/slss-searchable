@@ -11,6 +11,8 @@ provider "aws" {
 }
 
 locals {
+  sortIndex = "sort"
+  sortIndexKey = "sort"
   instanceIndex = "instance"
   instanceIndexKey = "instanceId"
   tokenIndex = "token"
@@ -48,6 +50,11 @@ variable "keywordFields" {
   type = string
 }
 
+variable "sortFields" {
+  type = string
+  default = null
+}
+
 variable "artifactsBucket" {
   type = string
 }
@@ -83,6 +90,7 @@ module "indexr" {
   dataBucket = aws_s3_bucket.data.id
   dataBucketArn = aws_s3_bucket.data.arn
   suffix = var.suffix
+  sortFields = var.sortFields
 
   depends_on = [
     aws_sqs_queue.back-fill,

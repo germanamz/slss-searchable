@@ -4,6 +4,7 @@ const getKeywordFieldNames = require('./getKeywordFieldNames');
 const trimValue = require('./trimValue');
 const getDataIdKey = require('./getDataIdKey');
 const normalizeDynamoScalar = require('./normalizeDynamoScalar');
+const getSortFields = require('./getSortFields');
 
 const tokenizeInstance = (dynamoData) => {
   const dataIdKey = getDataIdKey();
@@ -11,7 +12,9 @@ const tokenizeInstance = (dynamoData) => {
   const instanceId = normalizeDynamoScalar(keys[dataIdKey]);
   const keywordFieldNames = getKeywordFieldNames(true);
   const fieldNames = getFieldNames();
+  const sortFields = getSortFields(true);
   const fieldsLength = fieldNames.length;
+  const sortFieldValues = {};
   const nTokens = {};
   const oTokens = {};
 
@@ -21,8 +24,13 @@ const tokenizeInstance = (dynamoData) => {
     const oFieldValue = oldImage[fieldName] && normalizeDynamoScalar(oldImage[fieldName]);
 
     if (nFieldValue !== oFieldValue) {
-      // If the field is a keyword don't tokenize the value
-      if (keywordFieldNames[fieldName]) {
+      if (sortFields[fieldName]) {
+        // If the field is sort sort key add it into the item without tokenizing
+        if (nFieldValue && nFieldValue.length) {
+          sortFieldValues[fieldName] = trimValue(nFieldValue);
+        }
+      } else if (keywordFieldNames[fieldName]) {
+        // If the field is a keyword don't tokenize the value
         if (nFieldValue && nFieldValue.length) {
           nTokens[trimValue(nFieldValue)] = instanceId
         }
@@ -44,6 +52,7 @@ const tokenizeInstance = (dynamoData) => {
   return [
     nTokens,
     oTokens,
+    sortFieldValues,
   ];
 };
 

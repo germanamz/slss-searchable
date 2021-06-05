@@ -115,6 +115,7 @@ resource "aws_lambda_function" "lambda" {
       DATA_TABLE = var.dataTable
       FIELDS = var.fields
       KEYWORD_FIELDS = var.keywordFields
+      SORT_FIELDS = var.sortFields
       DATA_BUCKET = var.dataBucket
       DATA_ID_KEY = var.dataIdKey
     }

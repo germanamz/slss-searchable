@@ -17,27 +17,38 @@ const eachToken = (tokens, action) => {
   }
 };
 
-const getWriteOperations = (nTokens, oTokens) => {
+const getWriteOperations = (nTokens, oTokens, sortFieldValues) => {
   const writeOperations = [];
   const toAddCache = {};
   const toRemoveCache = {};
+  const sortFields = Object.keys(sortFieldValues ?? {});
 
   eachToken(nTokens, (token) => {
     if (!toAddCache[token]) {
+      const item = {
+        [CONSTANTS.TOKEN_ID_KEY]: {
+          S: `${token}:${nTokens[token]}`,
+        },
+        [CONSTANTS.TOKEN_INDEX_KEY]: {
+          S: token,
+        },
+        [CONSTANTS.INSTANCE_INDEX_KEY]: {
+          S: nTokens[token],
+        },
+      };
+
+      if (sortFields && sortFields.length) {
+        sortFields.forEach((sortField) => {
+          item[`${CONSTANTS.SORT_INDEX_KEY}-${sortField}`] = {
+            S: sortFieldValues[sortField],
+          };
+        });
+      }
+
       toAddCache[token] = true;
       writeOperations.push({
         PutRequest: {
-          Item: {
-            [CONSTANTS.TOKEN_ID_KEY]: {
-              S: `${token}:${nTokens[token]}`,
-            },
-            [CONSTANTS.TOKEN_INDEX_KEY]: {
-              S: token,
-            },
-            [CONSTANTS.INSTANCE_INDEX_KEY]: {
-              S: nTokens[token],
-            },
-          },
+          Item: item,
         },
       });
     }

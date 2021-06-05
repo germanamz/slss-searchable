@@ -83,7 +83,7 @@ const getFilterKeys = (filter, queryKeyCondition = {}) => {
   const res = {};
   const expressionAttributeNames = {};
   const setExpAttrName = (key) => {
-    const hKey = `#${key}`;
+    const hKey = `#${key.replace(/-/g, '')}`;
     if (!expressionAttributeNames[hKey]) {
       expressionAttributeNames[hKey] = key;
     }
@@ -91,11 +91,12 @@ const getFilterKeys = (filter, queryKeyCondition = {}) => {
   };
   let expressionAttributeValues = {};
   const setExpAttrValues = (key, value) => {
-    if (!expressionAttributeValues[key]) {
-      expressionAttributeValues[key] = value;
-      return key;
+    const k = key.replace(/-/g, '');
+    if (!expressionAttributeValues[k]) {
+      expressionAttributeValues[k] = value;
+      return k;
     }
-    let nKey = `${key}${Math.floor(Math.random() * 1000)}`
+    let nKey = `${k}${Math.floor(Math.random() * 1000)}`
     expressionAttributeValues[nKey] = value;
     return nKey;
   };

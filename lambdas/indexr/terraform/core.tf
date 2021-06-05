@@ -35,6 +35,10 @@ variable "keywordFields" {
   description = "The keywords fields (dont need the stemmer to run) separated by comma"
 }
 
+variable "sortFields" {
+  type = string
+}
+
 variable "artifactsBucket" {
   type = string
 }
