@@ -39,23 +39,35 @@ const getTokenMatches = async (token, sort, limit, nextTokens) => {
     const sortFields = Object.keys(sort);
     let idxItems = [];
     const nextTokensMap = nextTokens ? Buffer.from(nextTokens, 'base64').toString('utf8').split(',').reduce((acc, item) => {
-      const [field, token64] = item.split(':');
-      acc[field] = JSON.parse(Buffer.from(token64, 'base64').toString('utf8'));
+      const [field, sortToken, token64] = item.split(':');
+
+      if (!acc[field]) {
+        acc[field] = {};
+      }
+
+      acc[field][sortToken] = JSON.parse(Buffer.from(token64, 'base64').toString('utf8'));
+
       return acc;
     }, {}) : {};
     const lastEvaluatedKeys = [];
 
     while (sortFields.length) {
       const sortField = sortFields.shift();
-      const sortToken = sort[sortField];
-      const nextToken = nextTokensMap[sortField];
-      const {
-        idxItems: resIdxItems,
-        lastEvaluatedKey: resLastEvaluatedKey,
-      } = await getTokenWithSort(token, sortField, sortToken, limit, nextToken);
-      idxItems = idxItems.concat(resIdxItems);
-      if (resLastEvaluatedKey) {
-        lastEvaluatedKeys.push(`${sortField}:${Buffer.from(JSON.stringify(resLastEvaluatedKey)).toString('base64')}`);
+      const sortTokens = sort[sortField];
+
+      while (sortTokens.length) {
+        const sortToken = sortTokens.shift();
+        const nextToken = nextTokensMap[sortField] && nextTokensMap[sortField][sortToken];
+        const {
+          idxItems: resIdxItems,
+          lastEvaluatedKey: resLastEvaluatedKey,
+        } = await getTokenWithSort(token, sortField, sortToken, limit, nextToken);
+
+        idxItems = idxItems.concat(resIdxItems);
+
+        if (resLastEvaluatedKey) {
+          lastEvaluatedKeys.push(`${sortField}:${sortToken}:${Buffer.from(JSON.stringify(resLastEvaluatedKey)).toString('base64')}`);
+        }
       }
     }
 
