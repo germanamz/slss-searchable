@@ -21,6 +21,7 @@ const getSortFields = (asMap) => {
       map[field] = true;
     }
     fieldNamesMap = map;
+    return fieldNamesMap;
   }
   return fieldNames;
 };
